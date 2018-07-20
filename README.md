@@ -26,7 +26,7 @@ fork of [pooler](//github.com/pooler)'s cpuminer (see AUTHORS for list of contri
 Algorithms
 ==========
 #### Currently supported
- * ✓ __reneis__ (Renesis ported by hav0k)
+ * ✓ __renesis__ (Renesis ported by hav0k)
  * ✓ __scrypt__ (Litecoin, Dogecoin, Feathercoin, ...)
  * ✓ __scrypt:N__
  * ✓ __scrypt-jane:N__
