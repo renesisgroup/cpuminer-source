@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 // Copyright (c) 2018, hav0k Renesis Developers & Renesis Group
 // This is the pre-fork hash for Renesis.
-// http://renesis.online 
+// http://renesis.io
 
 #include "miner.h"
 
