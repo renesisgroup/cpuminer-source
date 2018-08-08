@@ -36,8 +36,6 @@ void renesishash(void *output, const void *input)
 	sph_fugue512_context	 ctx_fugue;
 	sph_gost512_context	 ctx_gost;
 
-
-
 	sph_skein512_init(&ctx_skein);
 	sph_skein512 (&ctx_skein, input, 80);
 	sph_skein512_close (&ctx_skein, hash);
@@ -53,7 +51,6 @@ void renesishash(void *output, const void *input)
 	sph_shavite512_init (&ctx_shavite);
 	sph_shavite512 (&ctx_shavite, hash, 64);
 	sph_shavite512_close(&ctx_shavite, hash);
-
 
 	sph_jh512_init(&ctx_jh);
 	sph_jh512 (&ctx_jh, hash, 64);
